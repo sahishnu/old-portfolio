@@ -1,0 +1,341 @@
+/*
+Tan scheme -- Light to dark
+F3E6DD -- Lightest
+D8C7BE
+A6958C
+726C67
+404142 -- Darkest
+*/
+
+/*@import url(https://fonts.googleapis.com/css?family=Muli:400,300);*/
+/*@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600,500,400,300);
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:900,700,100,300,400,500);*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,900,700);
+
+/* CSS CLEAR DEFAULTS */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+
+html, body {
+    background-color: #121413; /*#F3E6DD;*/
+    margin:0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+body {
+    position: relative;
+    z-index: 0;
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    overflow-y: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lato, sans-serif;
+    font-size: 500%;
+    font-weight: 100;
+    margin-top: 0.00em;
+    margin-bottom: 0.67em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px dotted inherit;
+}
+
+.link-underline {
+    border-bottom: 1px dotted #555;
+}
+
+.link-underline:hover {
+    color: #2980b9;
+    border-bottom: 1px dotted #2980b9;
+}
+
+.text-name {
+    font-weight: 500;
+    font-family: Open Sans;
+}
+
+.section-main {
+    position: relative;
+    margin:0em;
+    padding:0em;
+    color: #F4F3F3;
+    background-size: cover;
+}
+
+
+
+/* All nav bars */
+.section-nav {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#group-page {
+    z-index: 1;
+}
+
+#background-nav {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+
+#section-landing {
+    z-index: 3;
+    background-image: url(../assets/sahishnu-main3.jpeg);
+    background-position: center;
+    height: 100vh;
+    color: #FFFFFF;
+}
+
+#section-header {
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#section-footer {
+    background-color: black;
+    z-index: 4;
+    bottom: 0;
+    width: 100%;
+}
+
+#section-footer-links {
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+#section-footer-contact {
+    padding-top: 10px;
+    color: #555;
+    background-color: black;
+}
+
+.flex-vert {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;  /*Center on x axis*/
+    align-content: center; /* Squash all to middle */
+    align-items: center; /* Center on y axis */
+}
+
+.flex-horiz {
+    display: flex;
+}
+
+
+.line {
+    background-color: white;
+    margin: 20px;
+    width: 120px;
+    height: 1px;
+}
+
+.line span {
+    position: relative;
+    top: -10px;
+    background: rgb(239, 71, 35);
+    padding: 0px 20px;
+}
+
+.project-containers{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+}
+
+
+/* Nav bar items */
+#section-header a {
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    display: block;
+    padding: 1.2em;
+    /*color: #CCCCCC;*/
+    transition: color 0.2s ease;
+}
+
+#section-footer-links a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 300;
+    display: block;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-top: 3em;
+    border-right: 1px solid rgba(255,255,255,0.3);
+}
+
+#section-footer-links li:last-of-type a {
+    border-right: none;
+}
+
+#section-header a:hover {
+    color: darkgray;
+}
+
+#section-footer-links a:hover {
+    color: #777;
+}
+
+#projects-code{
+  background-color: #F3F3F3;
+  color: black;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#projects-design{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                                    rgba(0, 0, 0, 0.5)),url(../assets/design.jpg);
+  color: white;
+  position: relative;
+
+}
+
+#projects-design img{
+  max-width: 75%;
+  object-fit: cover;
+  margin-left: 25%;
+}
+
+#design-title{
+  position:absolute;
+  font-size: 1.3vw;
+  top: 65%;
+  left: 5%;
+}
+
+#about{
+  background-color: #F3F3F3;
+  color: black;
+  height: 100vh;
+}
+
+#about h2{
+  margin: 0;
+}
+
+#about img{
+  max-width: 10%;
+  margin: 20px;
+}
+
+#about p{
+  margin:0;
+  max-width:75%;
+}
+
+#animatedme img{
+
+}
+
+.contact{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+
+.about-contact-description{
+  width: 100%;
+  color: darkgrey;
+  max-height: 30px;
+  font-size: 1em;
+  margin: 0;
+}
+
+
+.section-projects {
+    padding-top: 20px;
+    min-height: 100vh;
+}
+
+.section-projects h2 {
+    width: 100%;
+    margin-top: -2em;
+}
+
+.section-projects-description{
+    width: 100%;
+    color: darkgrey;
+    min-height: 30px;
+    padding-bottom: 1.5em;
+    font-size: 1em;
+}
+
+.container-project {
+    background-color: transparent;
+    margin: 5px;
+    max-width: 300px;
+    color: #9b9b9b;
+}
+
+.container-project:hover{
+    color: #404142;
+}
+
+.container-project img {
+    width: 300px;
+    height: 175px;
+    object-fit: contain;
+    filter: grayscale(100%);
+}
+
+.container-project img:hover {
+    filter: grayscale(0%);
+}
+
+.title-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+
+/* Small Screens */
+@media all and (max-width: 750px) {
+
+
+    #section-header {
+        font-size: 80%;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 300%;
+    }
+
+    #section-footer-links {
+        -webkit-flex-flow: column wrap;
+        flex-flow: column wrap;
+        padding: 0;
+    }
+
+    #section-footer-links a {
+        border-right: none;
+    }
+
+    .section-nav li:last-of-type a {
+        border-bottom: none;
+    }
+}
