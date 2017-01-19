@@ -316,6 +316,26 @@ a {
 /* Small Screens */
 @media all and (max-width: 750px) {
 
+  .container-project img {
+      filter: grayscale(0%);
+  }
+
+    #design-title h2{
+      display: none;
+    }
+
+    #about h2{
+      display: none;
+    }
+
+    #about img{
+      max-width: 30%;
+    }
+
+    #projects-design img{
+      margin: 0px;
+      max-height: 100%;
+    }
 
     #section-header {
         font-size: 80%;
