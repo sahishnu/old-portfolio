@@ -243,9 +243,21 @@ a {
   max-width:75%;
 }
 
-#animatedme img{
-
+.about-container-main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+
+.about-container-row{
+  justify-content: space-around;
+}
+
+.about-text{
+  display: inline-block;
+}
+
 
 .contact{
   display: flex;
