@@ -93,7 +93,8 @@ a {
 
 #section-landing {
     z-index: 3;
-    background-image: url(../assets/portfolio.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+                                      rgba(0, 0, 0, 0.2)),url(../assets/portfolio.jpg);
     background-position: center;
     height: 100vh;
     color: #FFFFFF;
