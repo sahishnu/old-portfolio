@@ -165,7 +165,7 @@ a {
 
 
 /* Nav bar items */
-#section-header a {
+#section-header li {
     text-decoration: none;
     letter-spacing: 1.5px;
     display: block;
@@ -189,7 +189,7 @@ a {
     border-right: none;
 }
 
-#section-header a:hover {
+#section-header li:hover {
     color: darkgray;
 }
 

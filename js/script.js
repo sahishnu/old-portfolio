@@ -21,8 +21,8 @@ $(document).ready(function(){
       }
     });
   }
-});
 
+});
 
 
 function capturahover(){
