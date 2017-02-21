@@ -32,7 +32,7 @@ function capturahover(){
 
 function capturaout(){
   var description = document.getElementsByClassName('section-projects-description')[0];
-  description.innerHTML = " ";
+  description.innerHTML = "Hover to learn more";
 }
 
 function snakeover(){
@@ -42,7 +42,7 @@ function snakeover(){
 
 function snakeout(){
   var description = document.getElementsByClassName('section-projects-description')[0];
-  description.innerHTML = " ";
+  description.innerHTML = "Hover to learn more";
 }
 
 function flapover(){
@@ -52,7 +52,7 @@ function flapover(){
 
 function flapout(){
   var description = document.getElementsByClassName('section-projects-description')[0];
-  description.innerHTML = " ";
+  description.innerHTML = "Hover to learn more";
 }
 
 function haridhamover(){
@@ -62,7 +62,7 @@ function haridhamover(){
 
 function haridhamout(){
   var description = document.getElementsByClassName('section-projects-description')[0];
-  description.innerHTML = " ";
+  description.innerHTML = "Hover to learn more";
 }
 
 function siteover(){
@@ -72,7 +72,7 @@ function siteover(){
 
 function siteout(){
   var description = document.getElementsByClassName('section-projects-description')[0];
-  description.innerHTML = " ";
+  description.innerHTML = "Hover to learn more";
 }
 
 function twitteron(){
@@ -82,7 +82,7 @@ function twitteron(){
 
 function twitterout(){
   var description = document.getElementsByClassName('about-contact-description')[0];
-  description.innerHTML = " ";
+  description.innerHTML = "Hover to learn more";
 }
 
 function githubon(){
@@ -92,5 +92,15 @@ function githubon(){
 
 function githubout(){
   var description = document.getElementsByClassName('about-contact-description')[0];
-  description.innerHTML = " ";
+  description.innerHTML = "Hover to learn more";
+}
+
+function letterson(){
+  var description = document.getElementsByClassName('section-projects-description')[0];
+  description.innerHTML = "A fun way to type";
+}
+
+function lettersout(){
+  var description = document.getElementsByClassName('section-projects-description')[0];
+  description.innerHTML = "Hover to learn more";
 }

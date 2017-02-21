@@ -160,6 +160,7 @@ a {
   flex-direction: row;
   justify-content: space-around;
   height: 100%;
+  margin-top: 1em;
 }
 
 
@@ -199,8 +200,8 @@ a {
 #projects-code{
   background-color: #F3F3F3;
   color: black;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  /*justify-content: space-around;*/
 }
 
 #projects-design{
@@ -289,14 +290,12 @@ a {
 
 .section-projects h2 {
     width: 100%;
-    margin-top: -2em;
 }
 
 .section-projects-description{
     width: 100%;
     color: darkgrey;
     min-height: 30px;
-    padding-bottom: 1.5em;
     font-size: 1em;
 }
 
